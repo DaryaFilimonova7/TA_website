@@ -1,0 +1,150 @@
+
+/*  Заголовок  */
+.tour-header {
+  background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.5)), url("/img/tours/prim-kr.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  height:100vh;
+  background-size: cover;
+}
+.tour-header_container {
+  height: 80vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+}
+.tour-header_title {
+  margin-top: 35vh;
+  text-align: center;
+  font-size: calc(40px + 3vw);
+  color:#f2f2f2;
+  font-family: 'Exo 2', sans-serif;
+}
+.tour-header_button {
+  align-self: center;
+  width: 230px;
+  background: #968246;
+  padding: 15px;
+  margin-top: 17px;
+  transition: 0.2s;
+  border: none;
+  border-radius: 2em;
+  margin-bottom: 30px;
+  box-shadow:  4px 4px 15px #000000;
+
+}
+.tour-header_button span {
+  color: white;
+  font-size: 19px;
+}
+.tour-header_button:focus, .tour-header_button:hover {
+  background: #DDC67F;
+}
+
+/*  Краткое описание тура  */
+.short-description {
+  background-color: #09231D;
+  color:#f2f2f2;
+  padding: 40px 0 55px 0;
+}
+.short-description_row {
+  padding: 0 80px;
+}
+.short-description_left {
+  justify-content: center;
+}
+.short-description_right {
+  justify-content: center;
+  padding-left: 0;
+}
+.short-description_title {
+  padding-top: 30px;
+  font-size: 35px;
+}
+.short-description_text {
+ font-size: 18px;
+}
+.short-description ul {
+  padding-left: 0;
+}
+.short-description li {
+  font-size: 18px;
+  margin-bottom: 5px;
+  list-style-type: none;
+}
+.short-description_link {
+  color: #968246;
+  font-size: 12px;
+}
+
+/*  Описание тура   */
+.description {
+  background-color: #f0eff3;
+  padding-bottom: 30px;
+}
+.description_container {
+  padding: 50px;
+}
+.description_right {
+  align-items: center;
+  padding: 70px 50px 100px 20px;
+}
+
+.description_left {
+  padding: 20px 10px 20px 0;
+}
+.description_text {
+  margin-top: 50px;
+  font-size: 21px;
+}
+.description_img_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.description_image {
+  width: 370px;
+  border-radius: 30px;
+}
+
+/*  Программа тура  */
+.tour-program {
+  background-color: #f0eff3;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 34px;
+  padding-bottom: 20px;
+}
+.tour-program_title {
+  font-family: 'Exo 2', sans-serif;
+  font-size: 40px;
+  text-align: center;
+}
+.tour-program_wrap {
+  padding: 20px 30px 20px  30px;
+  width: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.accordion {
+  --bs-accordion-active-color: none !important;
+  --bs-accordion-active-bg: none !important;
+  --bs-accordion-btn-focus-box-shadow: none !important;
+}
+.tour_accordion-button:focus, .accordion-button:hover,  .tour_accordion-button:active {
+  background: linear-gradient(221.29deg,#DDC67F,#F3D89A 94.31%);
+  border: none;
+  color: #0a0a0a !important;
+  box-shadow: none;
+}
+.accordion-button:not(.collapsed) {
+  background: linear-gradient(221.29deg,#DDC67F,#F3D89A 94.31%);
+  color: #0a0a0a !important;
+}
+.tour-program_text {
+  padding: 20px;
+}
+.tour-program_img {
+  padding-left: 20px;
+  width: 45px;
+}
+
